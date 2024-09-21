@@ -5,4 +5,5 @@ cotacoes = requests.get (' https://economia.awesomeapi.com.br/last/USD-BRL,EUR-B
 cotacoes = cotacoes.json()
 cotacao_dolar = cotacoes ['USDBRL']['bid']
 print(cotacao_dolar)
-print('Adicionado ao GitHub apenas para teste')
+
+print('Código para mostrar a cotação do dolar atual')
